@@ -17,8 +17,9 @@ namespace Functions_V3_sample
 
         public void Foo()
         {
-            Logger.LogError("Foo");
-            Telemetry.TrackEvent("Bar");
+            Logger.LogInformation("Foo");
+            Telemetry.TrackTrace("BarLog", Microsoft.ApplicationInsights.DataContracts.SeverityLevel.Information);
+            Telemetry.TrackEvent("BarEvent");
         }
 
 
