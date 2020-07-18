@@ -3,10 +3,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AzureFunctionsVersion>V3</AzureFunctionsVersion>
     <RootNamespace>Functions_V3_sample</RootNamespace>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
   <ItemGroup>
 	  <PackageReference Include="Microsoft.ApplicationInsights" Version="2.14.0" />
-	  <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />
+	  <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.9" />
 	  <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>

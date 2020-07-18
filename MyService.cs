@@ -1,5 +1,4 @@
 ﻿using Microsoft.ApplicationInsights;
-using Microsoft.Build.Framework;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
